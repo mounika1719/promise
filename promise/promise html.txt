@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+                 *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    .card-img-top {
+        flex-grow: 1;
+        height: 250px;
+        object-fit: fill;
+    }
+    .cardGradient{
+        background-image: linear-gradient(to right, rgb(235, 236, 152),gray);
+    }
+    .card{
+        border: none;
+    }
+    .bg-black{
+        background-color: black;
+    }
+    </style>
+    <script src="./script.js"></script>
+  </head>
+  </body>
+</html>
